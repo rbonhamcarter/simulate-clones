@@ -20,7 +20,7 @@ To gather a set of results for one simulation scenario, run the following set of
 
 3. `compute_result.py`: given a set of couplings from the methods and a true coupling (such as from `sample_and_infer_tmaps.py`), computes a number of metrics and statistics about the full/sampled dataset. Statistics include the true and predicted $t_1$ cell type proportions in the cells in multi-time clones, growth rate and cell type info at each timepoint. Metrics/summary results for the couplings include: transition tables, correlation and Wasserstein distance between true and estimated fate probabilities and true and estimated ancestor distributions for each method (CoSpar-ST, CoSpar-MT, LineageOT-ST and LineageOT-MT).
 
-4. `generate_result.ipynb`: Given a set of results (i.e. replicates of running `sample_and_infer_tmaps.py` and `compute_result.py` for a range of $t_1$ sampling rates), this notebook allows one to explore the statistics of the sampling process and plot the results over sampling rates.
+4. `generate_results.ipynb`: Given a set of results (i.e. replicates of running `sample_and_infer_tmaps.py` and `compute_result.py` for a range of $t_1$ sampling rates), this notebook allows one to explore the statistics of the sampling process and plot the results over sampling rates.
 
 Plots like those in the paper that compare two sets of results (baseline and effect) can be generated using `compare-to-baseline-results-2.ipynb`.
 

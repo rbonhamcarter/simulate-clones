@@ -1,0 +1,27 @@
+patch.linewidth: 0.8
+axes.titlesize: 24
+legend.title_fontsize: 24
+xtick.labelsize: 24
+ytick.labelsize: 24
+axes.labelsize: 24
+font.size: 24
+mathtext.fontset: stix
+font.family: STIXGeneral
+lines.linewidth: 1.2
+legend.frameon: False
+legend.framealpha: 0.8
+legend.fontsize: 24
+legend.edgecolor: 0.9
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing:  0.4
+text.usetex: False
+axes.formatter.use_mathtext: True
+axes.autolimit_mode: round_numbers
+axes.labelpad: 3
+axes.formatter.limits: -4, 4
+axes.linewidth: 0.5
+axes.grid: False
+figure.titlesize: 12
+figure.dpi: 300
+lines.markersize: 5
