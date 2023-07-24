@@ -11,7 +11,7 @@ from numpy.random import default_rng
 rng = default_rng()
 import math
 
-import clonevalidation.src as src
+import utils as src
 
 
 parser = argparse.ArgumentParser(description='This script takes a sampling rate and max growth'

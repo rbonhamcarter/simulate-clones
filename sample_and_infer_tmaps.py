@@ -9,7 +9,7 @@ import scipy
 from numpy.random import default_rng
 rng = default_rng()
 
-import clonevalidation.src as src
+import utils as src
 
 
 parser = argparse.ArgumentParser(description='This script takes a dataset as input, '
@@ -180,7 +180,7 @@ def main():
                                                 epsilon=0.05,
                                                 marginal_1=marginal_1, marginal_2=[], time_key="time")
     
-    # Saving the fitted coupling in the format Waddington-OT expects
+    # Saving the fitted coupling in the format Waddington-OT expects to use downstream analysis tools
     temp_tmap_dir = os.path.join(tmap_dir, "lineageot-mt")
     if not os.path.isdir(temp_tmap_dir):
         os.makedirs(temp_tmap_dir)

@@ -9,7 +9,7 @@ import ot
 
 rng = default_rng()
 
-import clonevalidation.src as src
+import utils as src
 
 parser = argparse.ArgumentParser(description='This script takes an anndata and a number of tmaps, '
                                  + 'which are inferred for a dataset for a specific sampling rates ' 
