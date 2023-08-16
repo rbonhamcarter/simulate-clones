@@ -28,7 +28,7 @@ Plots like those in the paper that compare two sets of results (baseline and eff
 
 ## For the bar plots of cell type proportions in the Tcell dataset
 
-The figure of the bar plot of the cell type proportions in the T-cell induction dataset in Section 2 may be generated using the data from the paper associated with the dataset () and the notebook `explore_growth_bias_in_tcell.ipynb`. 
+The figure of the bar plot of the cell type proportions in the T-cell induction dataset in Section 2 may be generated using the data from the paper associated with the dataset (Michaels et al.) and the notebook `explore_growth_bias_in_tcell.ipynb`. 
 
 ## References
 
@@ -38,3 +38,7 @@ no. 7, pp. 1066–1074, 2022.
 
 A. Forrow and G. Schiebinger, “LineageOT is a unified framework for lineage tracing and trajectory
 inference,” Nature communications, vol. 12, no. 1, pp. 1–10, 2021
+
+Y. S. Michaels, M. C. Major, B. Bonham-Carter, et al., “Time- and lineage-resolved transcriptional
+profiling uncovers gene expression programs and clonal relationships that underlie human T lineage
+specification,” Preprint in submission, 2023
