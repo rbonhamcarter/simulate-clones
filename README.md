@@ -1,8 +1,12 @@
 # `simulate-clones`
 
-This repository contains the source code to simulate simple lineage barcoded single cell datasets. It was designed to be used to investigate the presence of a sampling bias in the cell type proportions represented in clones observed over multiple time points, and what effect that bias may have on trajectory inference methods.
+This repository contains the source code to simulate simple lineage barcoded single cell datasets. It was designed to be used to investigate the presence of a sampling bias in the cell type proportions represented in clones observed over multiple time points, and what effect that bias may have on trajectory inference methods. It was used to generate the simulations and figures in our paper on the topic, see preprint below:
 
-The trajectory inference methods tested in this repository are CoSpar (Wang et. al) and LineageOT (Forrow and Schiebinger). For each method two variations were tested, one using only single-time clonal data, and one using multi-time clonal data. These variations are denoted using the "-ST" and "-MT" subscripts. The version of LineageOT used in this study is currently available on this branch of the fork of the method's repository: https://github.com/rbonhamcarter/LineageOT/tree/multi-time-clones.
+Cellular proliferation biases clonal lineage tracing and trajectory inference
+Becca Bonham-Carter, Geoffrey Schiebinger
+bioRxiv 2023.07.20.549801; doi: https://doi.org/10.1101/2023.07.20.549801
+
+The trajectory inference methods tested in this repository are CoSpar (Wang et. al) and LineageOT (Forrow and Schiebinger). For each method two variations were tested, one using only single-time clonal data, and one using multi-time clonal data. These variations are denoted using the "-ST" and "-MT" subscripts. The LineageOT-MT method was developed during this study and is currently available on this branch of the fork of the method's repository: https://github.com/rbonhamcarter/LineageOT/tree/multi-time-clones. We plan to merge this branch into the original repository shortly.
 
 ## For the simulations supporting the derivation of the probabilities
 
@@ -22,4 +26,11 @@ To gather a set of results for one simulation scenario, run the following set of
 
 Plots like those in the paper that compare two sets of results (baseline and effect) can be generated using `compare-results.ipynb`.
 
+## References
 
+S.-W. Wang, M. J. Herriges, K. Hurley, D. N. Kotton, and A. M. Klein, “CoSpar identifies early cell
+fate biases from single-cell transcriptomic and lineage information,” Nature Biotechnology, vol. 40,
+no. 7, pp. 1066–1074, 2022.
+
+A. Forrow and G. Schiebinger, “LineageOT is a unified framework for lineage tracing and trajectory
+inference,” Nature communications, vol. 12, no. 1, pp. 1–10, 2021
