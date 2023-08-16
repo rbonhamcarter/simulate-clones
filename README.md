@@ -2,9 +2,7 @@
 
 This repository contains the source code to simulate simple lineage barcoded single cell datasets. It was designed to be used to investigate the presence of a sampling bias in the cell type proportions represented in clones observed over multiple time points, and what effect that bias may have on trajectory inference methods. It was used to generate the simulations and figures in our paper on the topic, see preprint below:
 
-Cellular proliferation biases clonal lineage tracing and trajectory inference
-Becca Bonham-Carter, Geoffrey Schiebinger
-bioRxiv 2023.07.20.549801; doi: https://doi.org/10.1101/2023.07.20.549801
+Cellular proliferation biases clonal lineage tracing and trajectory inference; Becca Bonham-Carter, Geoffrey Schiebinger; bioRxiv 2023.07.20.549801; doi: https://doi.org/10.1101/2023.07.20.549801
 
 The trajectory inference methods tested in this repository are CoSpar (Wang et. al) and LineageOT (Forrow and Schiebinger). For each method two variations were tested, one using only single-time clonal data, and one using multi-time clonal data. These variations are denoted using the "-ST" and "-MT" subscripts. The LineageOT-MT method was developed during this study and is currently available on this branch of the fork of the method's repository: https://github.com/rbonhamcarter/LineageOT/tree/multi-time-clones. We plan to merge this branch into the original repository shortly.
 
