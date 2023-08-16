@@ -26,6 +26,10 @@ To gather a set of results for one simulation scenario, run the following set of
 
 Plots like those in the paper that compare two sets of results (baseline and effect) can be generated using `compare-results.ipynb`.
 
+## For the bar plots of cell type proportions in the Tcell dataset
+
+The figure of the bar plot of the cell type proportions in the T-cell induction dataset in Section 2 may be generated using the data from the paper associated with the dataset () and the notebook `explore_growth_bias_in_tcell.ipynb`. 
+
 ## References
 
 S.-W. Wang, M. J. Herriges, K. Hurley, D. N. Kotton, and A. M. Klein, “CoSpar identifies early cell
