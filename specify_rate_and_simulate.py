@@ -1,9 +1,6 @@
 import argparse
 import numpy as np
-import lineageot
-import scanpy as sc
 import pandas as pd
-import cospar as cs
 import anndata
 import os
 import scipy
