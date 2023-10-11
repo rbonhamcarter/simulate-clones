@@ -35,7 +35,7 @@ fastcluster==1.2.6
 fastjsonschema==2.18.0
 fonttools==4.42.1
 fqdn==1.5.1
-gevent==23.7.0
+gevent==23.9.0
 greenlet==2.0.2
 grequests==0.7.0
 gseapy==0.9.13
