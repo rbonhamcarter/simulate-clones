@@ -39,4 +39,4 @@ inference,” Nature communications, vol. 12, no. 1, pp. 1–10, 2021
 
 Y. S. Michaels, M. C. Major, B. Bonham-Carter, et al., “Time- and lineage-resolved transcriptional
 profiling uncovers gene expression programs and clonal relationships that underlie human T lineage
-specification,” Preprint in submission, 2023
+specification,” bioRxiv 2023.10.06.561277; doi: https://doi.org/10.1101/2023.10.06.561277 
