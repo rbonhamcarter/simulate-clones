@@ -41,7 +41,7 @@ grequests==0.7.0
 gseapy==0.9.13
 h5py==3.9.0
 html5lib==1.1
-idna==3.4
+idna==3.7
 igraph==0.10.6
 importlib-metadata==6.8.0
 importlib-resources==6.0.1
